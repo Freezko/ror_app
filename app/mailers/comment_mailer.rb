@@ -1,6 +1,6 @@
 class CommentMailer < ActionMailer::Base
   default from: 'RoR App <app@r.or>'
-  layout false
+  layout false 
 
   def comment_made(mail_data)
     @mail_data = mail_data
